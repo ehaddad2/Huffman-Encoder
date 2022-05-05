@@ -1,14 +1,8 @@
-/*Elias Haddad (ehaddad2)
- * Huffman Encoder/decoder
- * CSC 172
- * 3/19/22
- */
-
 import java.io.*;
 import java.util.*;
 import java.nio.file.*;
 
-public class HuffmanSubmit implements Huffman {
+public class HuffmanMain implements Huffman {
 	
 	private final static int charArrLength = 256; 
 	public static BinaryOut b = new BinaryOut();
@@ -20,9 +14,9 @@ public class HuffmanSubmit implements Huffman {
     	String freqFile = "";
     	String decFile = "";
     	
-		      Huffman  huffman = new HuffmanSubmit();
+		      Huffman  huffman = new HuffmanMain();
 		      
-		      // user prompt
+		      // user prompts
 		      try {
 		      System.out.println("Please enter the name of the file you'd like to encrypt: ");
 		      fileToEnc = s.nextLine();
@@ -315,7 +309,6 @@ public class HuffmanSubmit implements Huffman {
 		
 		  return Integer.compare(frequency, n.frequency);
 	}
-	   
 	   
    }
 
