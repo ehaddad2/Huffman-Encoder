@@ -1,4 +1,11 @@
 # Huffman-Encoder
+
+Prereqs:
+- If you want to encode a file, make sure you create 2 blank text files for the frequency processing and the encoded message. Also, you of course want to have the text file you want to encrypt. Place all these files in the main folder of the program prior to invoking it.
+ 
+- If you want to decode a file, make sure you create 2 blank files for the frequency processing and a file the program can write the decoded message to. Also, you'll want the .enc file you want to decrypt.
+
+About:
 This program uses huffman compression to compress a user-specified file onto an encrypted file with a frequency file as the key and then gives the user the option to decode it.
 
 Primary methods and description:
@@ -26,5 +33,7 @@ method works to traverse the huffman tree and recursively assign binary values f
 
 *Class also includes a nested Node class: a recursive implementation of the node used in the huffman tree.
 
+Additional Info:
+- The Binary class is adopted from _Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
 
 
