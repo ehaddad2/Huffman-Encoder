@@ -5,6 +5,7 @@ Prereqs:
  
 - If you want to decode a file, make sure you create 2 blank files for the frequency processing and a file the program can write the decoded message to. Also, you'll want the .enc file you want to decrypt.
 
+Updates: currently working to implement image encoding capabilities (specifically .jpg)
 About:
 This program uses huffman compression to compress a user-specified file onto an encrypted file with a frequency file as the key and then gives the user the option to decode it.
 
